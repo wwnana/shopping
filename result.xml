@@ -1,1 +1,20 @@
-
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllTests" project="shopping" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="AllTests" time="0.842" uniqueid="[engine:junit-vintage]/[runner:AllTests]">
+    <testsuite name="CategoryDaoTest" time="0.806" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:CategoryDaoTest]">
+      <testcase name="testAdd" classname="CategoryDaoTest" time="0.734" displayname="testAdd" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:CategoryDaoTest]/[test:testAdd(CategoryDaoTest)]"/>
+      <testcase name="testLoad" classname="CategoryDaoTest" time="0.069" displayname="testLoad" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:CategoryDaoTest]/[test:testLoad(CategoryDaoTest)]"/>
+      <testcase name="testDeleteCategory" classname="CategoryDaoTest" time="0.003" displayname="testDeleteCategory" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:CategoryDaoTest]/[test:testDeleteCategory(CategoryDaoTest)]"/>
+    </testsuite>
+    <testsuite name="ProductDaoTest" time="0.005" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:ProductDaoTest]">
+      <testcase name="testFindProductCountByCategory" classname="ProductDaoTest" time="0.002" displayname="testFindProductCountByCategory" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:ProductDaoTest]/[test:testFindProductCountByCategory(ProductDaoTest)]"/>
+      <testcase name="testEdit" classname="ProductDaoTest" time="0.002" displayname="testEdit" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:ProductDaoTest]/[test:testEdit(ProductDaoTest)]"/>
+      <testcase name="testDelete" classname="ProductDaoTest" time="0.001" displayname="testDelete" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:ProductDaoTest]/[test:testDelete(ProductDaoTest)]"/>
+    </testsuite>
+    <testsuite name="UserDaoTest" time="0.031" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:UserDaoTest]">
+      <testcase name="testAdd" classname="UserDaoTest" time="0.025" displayname="testAdd" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:UserDaoTest]/[test:testAdd(UserDaoTest)]"/>
+      <testcase name="testUpdateLoginPass" classname="UserDaoTest" time="0.002" displayname="testUpdateLoginPass" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:UserDaoTest]/[test:testUpdateLoginPass(UserDaoTest)]"/>
+      <testcase name="testAjaxValidateLoginname" classname="UserDaoTest" time="0.002" displayname="testAjaxValidateLoginname" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:UserDaoTest]/[test:testAjaxValidateLoginname(UserDaoTest)]"/>
+      <testcase name="testAjaxValidateEmail" classname="UserDaoTest" time="0.002" displayname="testAjaxValidateEmail" uniqueid="[engine:junit-vintage]/[runner:AllTests]/[test:UserDaoTest]/[test:testAjaxValidateEmail(UserDaoTest)]"/>
+    </testsuite>
+  </testsuite>
+</testrun>
